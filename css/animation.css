@@ -1,0 +1,31 @@
+p{
+    animation-name: slidein;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    font-size: 200px;
+    font-weight: bold;
+}
+
+@keyframes slidein{
+    from{
+        color:red;
+        font-weight: bold;
+        font-style: normal;
+        margin-left: 100%;
+        width: 300%
+
+
+    }
+    to{ margin-right: 0%;
+        font-size:150%;
+        width:200%;
+        color:pint;
+
+    }
+}
+@media (max-width:768px) {
+    p{
+        
+    }
+    
+}
